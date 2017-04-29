@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[WebRTCClient registerUser:UserId:Name:]:WebRTCClient.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "rtcPeer.connectionId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NBMWebRTCPeer localVideoTrackWithConstraints:]:NBMWebRTCPeer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.cameraPosition">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NBMWebRTCPeer selectCameraPosition:]:NBMWebRTCPeer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.cameraPosition">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[WebRTCClient acceptCall]:WebRTCClient.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "rtcPeer.connectionId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RTCPeer webRTCPeer:didGenerateOffer:forConnection:]:RTCPeer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.sessionId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[WebRTCClient webSocket:didReceiveMessage:]:WebRTCClient.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "messageId">
+            </PersistentString>
+            <PersistentString
+               value = "[messageId isEqualToString:@&quot;registerResponse&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[WebRTCClient createStream:]:WebRTCClient.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.localStream">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

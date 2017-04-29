@@ -1,0 +1,48 @@
+PODS:
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - KurentoToolbox (0.6.0):
+    - KurentoToolbox/Default (= 0.6.0)
+  - KurentoToolbox/Default (0.6.0):
+    - KurentoToolbox/JSON-RPC
+    - KurentoToolbox/KurentoWebRTC
+    - KurentoToolbox/Room
+    - KurentoToolbox/Tree
+  - KurentoToolbox/JSON-RPC (0.6.0):
+    - KurentoToolbox/Utils
+    - SBJson (~> 4.0.2)
+    - SocketRocket (~> 0.4.1)
+  - KurentoToolbox/KurentoWebRTC (0.6.0):
+    - KurentoToolbox/Utils
+  - KurentoToolbox/Room (0.6.0):
+    - KurentoToolbox/JSON-RPC
+    - KurentoToolbox/KurentoWebRTC
+    - KurentoToolbox/Utils
+  - KurentoToolbox/Tree (0.6.0):
+    - KurentoToolbox/JSON-RPC
+    - KurentoToolbox/KurentoWebRTC
+    - KurentoToolbox/Utils
+  - KurentoToolbox/Utils (0.6.0):
+    - CocoaLumberjack (~> 2.2.0)
+  - SBJson (4.0.5)
+  - SocketRocket (0.4.2)
+
+DEPENDENCIES:
+  - KurentoToolbox (~> 0.6.0)
+  - SocketRocket
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  KurentoToolbox: a82b60516371515847f1347a3e7f14c9b882a949
+  SBJson: af3137ccda22be3004487524da0a071c75d4251b
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+
+PODFILE CHECKSUM: 4bd5f57817004390c25747c42eaead92491af0b2
+
+COCOAPODS: 1.0.1
